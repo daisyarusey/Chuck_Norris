@@ -3,6 +3,7 @@ body{
 }
 img{
   max-width: 100%;
+  margin-top: 20px;
 }
 .title{
   color: yellow;
@@ -15,7 +16,13 @@ li{
   font-size: 20px;
 }
 .subTitle{
-  margin-top: 50px;
+  margin-top: 20px;
+}
+ul {
+  
+    text-decoration: none;
+    list-style-type: none;
 }
 
+  
 
