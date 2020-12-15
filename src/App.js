@@ -6,6 +6,7 @@ import axios from 'axios';
 import List from './components/List';
 import withListLoading from './components/withListLoading';
 
+
 function App() {
 
   const ListLoading = withListLoading(List);
@@ -22,7 +23,6 @@ useEffect(() => {
     setAppState({ loading: false, catgs: allCatgs });
   });
 }, [setAppState]);
-
 
   return (
     <div className='App'>

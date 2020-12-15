@@ -1,5 +1,8 @@
 import React from 'react';
 
+const handleClick = value => () => console.log(value)
+
+
 const List = (props) => {
   const { catgs } = props;
   if (!catgs || catgs.length === 0) return <p>No categories, sorry</p>;
@@ -13,8 +16,8 @@ const List = (props) => {
              return (
             
              <li key={catg} className='list'>
-            <span className='category-name'>{catg} </span>
-             </li>
+             <button className='btn'>{catg} </button>
+              </li>
          
          );
          })}
